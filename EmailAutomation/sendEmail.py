@@ -71,35 +71,44 @@ def readExcelSendEmail(RequestFilePath, subject, body, attachment_path, Response
 
 # Example usage
 # Experienced Software Tester Seeking Exciting Opportunities
-subject = "Intern Software Tester Seeking Exciting Opportunities"
+subject = "Eager Software QA professional seeking exciting opportunities"
 body = '''
 Dear Sir/Madam,
-My name is Subhadarshini Acharya, and I am writing to express my strong interest in the Software QA role at your Company
 
-I have below Skills in software testing
-    Manual Testing
-    Automation Testing
-    Automation Tools (Selenium)
-    Database Testing
-   Other than testing I have below experience 
-    SQL developer
-    Application Support
-    SQL support
-Please find my resume attached for your reference. I would welcome the chance to discuss how my experience and skills can contribute to the success of your projects.
+    I am writing to express my strong interest in software QA roles and my eagerness to contribute 
+my skills and experience to a thriving team. I am actively seeking opportunities in where I can leverage
+my expertise in Manual Testing, Automation Testing, Automation Tools (Selenium), Database Testing and Other
+than testing I have experience In SQL development like in-depth understanding of data modeling and ER design
+advanced script and programming like Stored procedure writing, User defined function creating, Application
+Support, SQL support, Production release.
+
+    With 6 months of experience in software testing and SQL development, I have a proven track record of identifying
+and resolving critical bugs, improving test efficiency, ensuring timely delivery of high-quality software,
+SQL complex script writing, query performance tuning Error logging, Error Handling. I am proficient in various
+testing methodologies and tools, including Selenium for automation, Database testing using SSMS, Jira tool, GitHub and possess
+a deep understanding of the software development lifecycle.
+
+    Beyond technical skills, I bring strong analytical and problem-solving abilities, excellent communication
+and collaboration skills, and a meticulous attention to detail. I am a fast learner, adaptable to new environments,
+and passionate about delivering quality software products.
+
+    I am particularly drawn to companies that [mention things you value in a company, e.g., prioritize innovation,
+invest in employee development, foster a collaborative culture]. I am confident that my skills and experience would
+be a valuable asset to your team, and I am eager to learn more about opportunities where I can make a significant impact.
+
+    Thank you for your time and consideration. I have attached my resume for your review and look forward to hearing from you soon.
 I can be reached at +91-8144246803 or via email at guddyacharya98@gmail.com.
 
-Thank you for considering my application. I look forward to the possibility of joining your dynamic team and contributing to your continued success.
-
 Sincerely,
-Subhadarshini Acharya    
+Subhadarshini Acharya   
 '''
 
 receiver_email = "narayansahu650@gmail.com"
-attachment_path = f"C:/Users/91955/OneDrive/Desktop/Subhadarshini/ApplyDetails/SoftwareTester_SubhadarshiniAcharya_Resume.pdf"
+attachment_path = f"C:/Users/naray/Desktop/NarayanSahu/DataScience/GitHub/DataScience_PW/EmailAutomation/EmailDataFiles/Resume/SoftwareTester_SubhadarshiniAcharya_Resume.pdf"
 # send_email(subject, body, receiver_email)
-RootFilePath = f'C:/Users/91955/OneDrive/Desktop/Subhadarshini/ApplyDetails/'
-RequestFilePath = RootFilePath+'Request_HR_MailID.xlsx'
-# RequestFilePath = RootFilePath+'Request_HR_MailID - Copy.xlsx'
+RootFilePath = f'C:/Users/naray/Desktop/NarayanSahu/DataScience/GitHub/DataScience_PW/EmailAutomation/EmailDataFiles/'
+# RequestFilePath = RootFilePath+'Request_HR_MailID.xlsx'
+RequestFilePath = RootFilePath+'Request_HR_MailID - Copy.xlsx'
 # RequestFilePath = RootFilePath+'Request_HR_MailID_1_200.xlsx'
 ResponseFilePath = RootFilePath+'Response/'
 
