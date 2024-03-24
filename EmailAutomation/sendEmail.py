@@ -71,7 +71,7 @@ def readExcelSendEmail(RequestFilePath, subject, body, attachment_path, Response
 
 # Example usage
 # Experienced Software Tester Seeking Exciting Opportunities
-subject = "Eager Software QA professional seeking exciting opportunities"
+subject = "Eager Software Tester and Application Support professional seeking exciting opportunities"
 body = '''
 Dear Sir/Madam,
 
@@ -108,8 +108,9 @@ attachment_path = f"C:/Users/naray/Desktop/NarayanSahu/DataScience/GitHub/DataSc
 # send_email(subject, body, receiver_email)
 RootFilePath = f'C:/Users/naray/Desktop/NarayanSahu/DataScience/GitHub/DataScience_PW/EmailAutomation/EmailDataFiles/'
 # RequestFilePath = RootFilePath+'Request_HR_MailID.xlsx'
-RequestFilePath = RootFilePath+'Request_HR_MailID - Copy.xlsx'
+# RequestFilePath = RootFilePath+'Request_HR_MailID - Copy.xlsx'
 # RequestFilePath = RootFilePath+'Request_HR_MailID_1_200.xlsx'
+RequestFilePath = RootFilePath+'Guddy_Request_HR_MailID_2.xlsx'
 ResponseFilePath = RootFilePath+'Response/'
 
 readExcelSendEmail(RequestFilePath, subject, body, attachment_path)
